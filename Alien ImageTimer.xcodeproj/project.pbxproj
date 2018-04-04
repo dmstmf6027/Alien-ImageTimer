@@ -12,6 +12,11 @@
 		64832CBE2074996900514BB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64832CBC2074996900514BB4 /* Main.storyboard */; };
 		64832CC02074996900514BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64832CBF2074996900514BB4 /* Assets.xcassets */; };
 		64832CC32074996900514BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64832CC12074996900514BB4 /* LaunchScreen.storyboard */; };
+		64832CD020749A3900514BB4 /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64832CCB20749A3800514BB4 /* frame1.png */; };
+		64832CD120749A3900514BB4 /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = 64832CCC20749A3800514BB4 /* frame3.png */; };
+		64832CD220749A3900514BB4 /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = 64832CCD20749A3900514BB4 /* frame4.png */; };
+		64832CD320749A3900514BB4 /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = 64832CCE20749A3900514BB4 /* frame2.png */; };
+		64832CD420749A3900514BB4 /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = 64832CCF20749A3900514BB4 /* frame5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		64832CBF2074996900514BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64832CC22074996900514BB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64832CC42074996900514BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64832CCB20749A3800514BB4 /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
+		64832CCC20749A3800514BB4 /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = "<group>"; };
+		64832CCD20749A3900514BB4 /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = "<group>"; };
+		64832CCE20749A3900514BB4 /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = "<group>"; };
+		64832CCF20749A3900514BB4 /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		64832CAC2074996900514BB4 = {
 			isa = PBXGroup;
 			children = (
+				64832CCA20749A1700514BB4 /* image */,
 				64832CB72074996900514BB4 /* Alien ImageTimer */,
 				64832CB62074996900514BB4 /* Products */,
 			);
@@ -62,6 +73,18 @@
 				64832CC42074996900514BB4 /* Info.plist */,
 			);
 			path = "Alien ImageTimer";
+			sourceTree = "<group>";
+		};
+		64832CCA20749A1700514BB4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				64832CCB20749A3800514BB4 /* frame1.png */,
+				64832CCE20749A3900514BB4 /* frame2.png */,
+				64832CCC20749A3800514BB4 /* frame3.png */,
+				64832CCD20749A3900514BB4 /* frame4.png */,
+				64832CCF20749A3900514BB4 /* frame5.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +146,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64832CD220749A3900514BB4 /* frame4.png in Resources */,
+				64832CD120749A3900514BB4 /* frame3.png in Resources */,
 				64832CC32074996900514BB4 /* LaunchScreen.storyboard in Resources */,
+				64832CD020749A3900514BB4 /* frame1.png in Resources */,
+				64832CD320749A3900514BB4 /* frame2.png in Resources */,
+				64832CD420749A3900514BB4 /* frame5.png in Resources */,
 				64832CC02074996900514BB4 /* Assets.xcassets in Resources */,
 				64832CBE2074996900514BB4 /* Main.storyboard in Resources */,
 			);
