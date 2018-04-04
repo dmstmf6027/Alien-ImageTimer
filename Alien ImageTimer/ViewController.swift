@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var myImageView: UIImageView!
     @IBOutlet weak var Index: UILabel!
-    
+    @IBOutlet weak var button: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,13 +32,17 @@ class ViewController: UIViewController {
     @IBAction func btStart(_ sender: Any) {
         if play == 0 {
             myTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(doAnimation), userInfo: nil, repeats: true)
+            button.setTitle("stop", for : .normal)
             play = 1
         } else {
             myTimer.invalidate()
+            button.setTitle("start", for : .normal)
             play = 0
             
         }
     }
+    
+
     
 
     @objc func doAnimation() {

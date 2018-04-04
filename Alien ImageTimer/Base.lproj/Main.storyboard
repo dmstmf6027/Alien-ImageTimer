@@ -30,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCa-SJ-tuu">
-                                <rect key="frame" x="97" y="476" width="50" height="42"/>
+                                <rect key="frame" x="166" y="472" width="50" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="start"/>
@@ -44,6 +44,7 @@
                     </view>
                     <connections>
                         <outlet property="Index" destination="DEJ-NY-jT2" id="XHq-HZ-DSb"/>
+                        <outlet property="button" destination="pCa-SJ-tuu" id="CJh-PO-R3b"/>
                         <outlet property="myImageView" destination="WOu-td-vhV" id="d6k-OM-QKV"/>
                     </connections>
                 </viewController>
